@@ -1,9 +1,10 @@
-x = input()
-y = list(input())
-for i in range(len(y)):
-    if y[i] == "x":
-        y[i] = x[0]
-print(eval("".join(y)) == int(x.split(" ")[1]))
+xk = input()                                     # Get x and k
+p = list(input())                                # Get Polynomial function P
+for i in range(len(p)):                          # For every occurrance of x in P, Replace x with the value x from xk pair
+    if p[i] == "x":
+        p[i] = xk[0]
+print(eval("".join(p)) == int(xk.split(" ")[1])) # Evaluate the solution after replacing the variables with integer x and compare with k for the answer T or F
+
 
 # Task
 # You are given a polynomial  P of a single indeterminate (or variable), .
@@ -26,3 +27,5 @@ print(eval("".join(y)) == int(x.split(" ")[1]))
 
 # Sample Output
 # True
+
+
