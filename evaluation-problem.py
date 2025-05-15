@@ -1,8 +1,8 @@
 inputString = input()
 eval(inputString)
 
-# Test input:
+# Sample Input: 
 # "print(2 + 3)"
-#
-# Output:
+
+# Sample Output: 
 # 5

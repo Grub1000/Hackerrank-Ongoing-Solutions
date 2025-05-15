@@ -17,10 +17,9 @@ else:
 # print("True") if all(list(map(lambda a: any([a > 0]) , nIntegers))) and any(list(map(lambda a: str(a) == str(a)[::-1], nIntegers))) else print("False")
 # Challenge: Same solution in 2 lines above
 
-# Test input:
+# Sample Input: 
 # 5
 # 12 9 61 5 14
-#
-# Output:
+
+# Sample Output: 
 # True
-#
