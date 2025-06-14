@@ -16,8 +16,8 @@ class MyHTMLParser(HTMLParser):
         for element in attributes:
             print('->', element[0], '>', element[1])
             
-Parser = MyHTMLParser()
-Parser.feed(''.join([input().strip() for i in range(0, n)]))
+parser = MyHTMLParser()
+parser.feed(''.join([input().strip() for i in range(0, n)]))
 
 
 

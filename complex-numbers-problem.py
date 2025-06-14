@@ -70,7 +70,6 @@ if __name__ == '__main__':
     print(*map(str, [x+y, x-y, x*y, x/y, x.mod(), y.mod()]), sep='\n')
 
 
-
 # Notes: Imaginary numbers 
 # i = sqrt(-1) Therefore i is imaginary, There are expressions with i that are indeed real numbers.
 # Ex. i**2 = sqrt(-1) * sqrt(-1) = -1

@@ -27,6 +27,5 @@ if __name__ == '__main__':
 # 
 # Sample Output
 # 5 8
-# 
 
 
