@@ -28,6 +28,7 @@ if __name__ == '__main__':
     print("%.2f" % math.degrees(angle))
     print(x.x, x.y,x.z)
 
+
 # Notes: Dot Product
 # If we have 2 vectors a = <a1, a2, a3> and b = <b1, b2, b3> Then the dot product will be -->
 # --> a . b = (a1 * b1) + (a2 * b2) + (a3 * b3)

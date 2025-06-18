@@ -13,7 +13,6 @@ if count == 0:
     print("(-1, -1)")
 
 
-
 # Task:
 # You are given a string .
 # Your task is to find the indices of the start and end of string  in .

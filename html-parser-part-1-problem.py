@@ -20,7 +20,6 @@ parser = MyHTMLParser()
 parser.feed(''.join([input().strip() for i in range(0, n)]))
 
 
-
 # Sample Input:
 # 2
 # <html><head><title>HTML Parser - I</title></head>

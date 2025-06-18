@@ -17,10 +17,3 @@ else:
 
 # Sample Output:
 # 1
-
-
-
-
-
-
-

@@ -10,9 +10,6 @@ for i in range(0, n):
         print(email.utils.formataddr(parsedAddress)) 
 
 
-
-
-
 # Sample Input:
 # 2  
 # DEXTER <dexter@hotmail.com>

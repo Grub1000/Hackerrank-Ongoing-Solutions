@@ -9,6 +9,7 @@ for i in range(len(match)):
     string = match[i]
     print(string)
 
+
 # Sample Input:
 # 11
 # #BED

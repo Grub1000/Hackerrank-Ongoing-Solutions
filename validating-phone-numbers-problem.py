@@ -9,11 +9,7 @@ for i in range(n):
         print("NO")
 
 
-
-
-
-# Input Format
-
+# Input Format:
 # The first line contains an integer N, the number of inputs.
 # N lines follow, each containing some string.
 

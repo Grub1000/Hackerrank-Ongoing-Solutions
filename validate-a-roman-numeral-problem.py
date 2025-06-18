@@ -4,8 +4,6 @@ import re
 print(str(bool(re.match(regex_pattern, input()))))
 
 
-
-
 # Input Format:
 # A single line of input containing a string of Roman characters.
 
