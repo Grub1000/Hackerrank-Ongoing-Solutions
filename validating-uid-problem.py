@@ -5,8 +5,7 @@ N = int(input())
 for i in range(N):
     uID = "".join(sorted(input()))
     # print(uID)
-    if (len(uID) == 10 and
-        re.match(r'', uID) and 
+    if (len(uID) == 10 and 
         re.search(r'[A-Z]{2}', uID) and
         re.search(r'\d\d\d', uID) and
         not re.search(r'[^a-zA-Z0-9]', uID) and
